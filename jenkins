@@ -9,7 +9,7 @@ stages {
     when { expression { MY_FILE == 'false' } }
     steps {
           bat "git clone https://github.com/Venu1007/god.git"
-          print "pulled the code"
+          print "pull the code"
     }
 }
    stage('compile') {
